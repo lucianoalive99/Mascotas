@@ -2,6 +2,7 @@ package ar.edu.undec.mascotas.usecaseunittest;
 
 import Mockito.MockitoExtension;
 import ar.edu.undec.mascotas.doamain.Mascota;
+import ar.edu.undec.mascotas.exception.mascotaExisteException;
 import ar.edu.undec.mascotas.repositorio.ICrearMascotaRepositorio;
 import ar.edu.undec.mascotas.usecase.CrearMascotaUseCase;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +21,7 @@ public class CrearMascotaUseCaseUnitTest {
     ICrearMascotaRepositorio crearMascotaRepositorio;
 
     @Test
-    void crearMascota_mascotaNoExiste_creaMascota(){
+    void crearMascota_mascotaNoExiste_creaMascota() throws mascotaExisteException {
         //arrange
         Mascota laMascota = Mascota.instancia("simon","boxer", LocalDate.of(2015,2,11));
         CrearMascotaUseCase crearMascotaUseCase = new CrearMascotaUseCase(crearMascotaRepositorio);
@@ -37,7 +38,7 @@ public class CrearMascotaUseCaseUnitTest {
     }
 
     @Test
-    void crearMascota_mascotaYaExiste_mascotaExisteException(){
+    void crearMascota_mascotaYaExiste_mascotaExisteException() throws mascotaExisteException {
         //arrange
         Mascota laMascota = Mascota.instancia("simon","boxer", LocalDate.of(2015,2,11));
         CrearMascotaUseCase crearMascotaUseCase = new CrearMascotaUseCase(crearMascotaRepositorio);
@@ -46,9 +47,9 @@ public class CrearMascotaUseCaseUnitTest {
         when(crearMascotaRepositorio.existe(laMascota.getNombre())).thenReturn(true);
 
         //act
-       // boolean resultado= crearMascotaUseCase.crearMascota(laMascota);
+        //boolean resultado= crearMascotaUseCase.crearMascota(laMascota);
 
         //assert
-        //Assertions.assertTrue(resultado);
+        Assertions.assertThrows(mascotaExisteException.class,()->crearMascotaUseCase.crearMascota(laMascota));
     }
 }

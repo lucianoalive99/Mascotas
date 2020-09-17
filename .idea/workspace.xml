@@ -27,6 +27,8 @@
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <recent name="ar.edu.undec.mascotas.doamain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteExiste_documentoExisteException">
+  <component name="RunManager" selected="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_creaCliente">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -187,8 +189,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteExiste_documentoExisteException" />
         <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_creaCliente" />
+        <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteExiste_documentoExisteException" />
         <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_clienteMenorDeEdad" />
         <item itemvalue="JUnit.CrearMascotaUseCaseUnitTest.crearMascota_mascotaYaExiste_mascotaExisteException" />
         <item itemvalue="JUnit.CrearMascotaUseCaseUnitTest.crearMascota_mascotaNoExiste_creaMascota" />
@@ -209,7 +211,7 @@
       <workItem from="1600182676547" duration="2286000" />
       <workItem from="1600211320508" duration="203000" />
       <workItem from="1600211645081" duration="6839000" />
-      <workItem from="1600290861602" duration="10422000" />
+      <workItem from="1600290861602" duration="11610000" />
     </task>
     <servers />
   </component>
@@ -251,28 +253,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600290896892" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600303224527">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600311589949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600303224527" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
     <state width="981" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1600303224527">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1600311589949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600303224527" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
     <state width="981" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1600303224527">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1600311589949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600303224527" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
     <state width="981" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1600303224527">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1600311589949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600303224527" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
     <state width="981" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600295589191">
@@ -295,6 +297,10 @@
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600295589191" />
     <state width="981" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1600311363847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311363847" />
     <state x="1366" y="0" key="SettingsEditor" timestamp="1600211030486">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
@@ -309,10 +315,10 @@
     </state>
     <state x="1343" y="-20" width="1040" height="509" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600296342167" />
     <state x="1430" y="131" width="840" height="544" key="dock-window-1/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600213091558" />
-    <state x="383" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1600297067224">
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1600311472214">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600297067224" />
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311472214" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600298251607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

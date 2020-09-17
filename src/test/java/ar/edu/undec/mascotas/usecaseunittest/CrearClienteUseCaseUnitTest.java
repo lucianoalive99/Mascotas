@@ -3,6 +3,7 @@ package ar.edu.undec.mascotas.usecaseunittest;
 
 import Mockito.MockitoExtension;
 import ar.edu.undec.mascotas.doamain.Cliente;
+import ar.edu.undec.mascotas.doamain.Mascota;
 import ar.edu.undec.mascotas.exception.clienteMenorEdadException;
 import ar.edu.undec.mascotas.exception.documentoExisteException;
 import ar.edu.undec.mascotas.repositorio.IcrearClienteRepositorio;
@@ -13,6 +14,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import static org.mockito.Mockito.when;
 
@@ -24,7 +26,9 @@ public class CrearClienteUseCaseUnitTest {
     @Test
     void crearCliente_clienteNoExiste_creaCliente() throws Exception {
         //arrange
-        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555", LocalDate.of(1990,4,13));
+        List<Mascota> listaMascotas = null;
+        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555",
+                LocalDate.of(1990,4,13), listaMascotas);
         CrearClienteUseCase crearClienteUseCase = new CrearClienteUseCase(crearClienteRepositorio);
 
         //base de datos
@@ -40,7 +44,9 @@ public class CrearClienteUseCaseUnitTest {
     @Test
     void crearCliente_clienteNoExiste_clienteMenorDeEdad() throws Exception {
         //arrange
-        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555", LocalDate.of(2003,4,13));
+        List<Mascota> listaMascotas = null;
+        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555",
+                LocalDate.of(2003,4,13), listaMascotas);
         CrearClienteUseCase crearClienteUseCase = new CrearClienteUseCase(crearClienteRepositorio);
 
         //base de datos
@@ -55,7 +61,9 @@ public class CrearClienteUseCaseUnitTest {
     @Test
     void crearCliente_clienteExiste_documentoExisteException() throws Exception {
         //arrange
-        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555", LocalDate.of(2003,4,13));
+        List<Mascota> listaMascotas = null;
+        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555",
+                LocalDate.of(2003,4,13), listaMascotas);
         CrearClienteUseCase crearClienteUseCase = new CrearClienteUseCase(crearClienteRepositorio);
 
         //base de datos

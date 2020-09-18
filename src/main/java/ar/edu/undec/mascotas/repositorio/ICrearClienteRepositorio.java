@@ -4,7 +4,7 @@ import ar.edu.undec.mascotas.doamain.Cliente;
 
 import java.time.LocalDate;
 
-public interface IcrearClienteRepositorio {
+public interface ICrearClienteRepositorio {
     boolean existeDocumento(String documento);
 
     boolean guardarCliente(Cliente elCliente);

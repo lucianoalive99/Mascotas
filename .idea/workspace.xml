@@ -27,7 +27,8 @@
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IcrearClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/ICrearClienteRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearClienteUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,32 +71,31 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP2/Aeropuerto" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programacion3-2020\undec-prog3-2020\mascotas\src\test" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ar.edu.undec.mascotas.usecase.input" />
       <recent name="ar.edu.undec.mascotas.repositorio" />
       <recent name="ar.edu.undec.mascotas.usecase" />
       <recent name="ar.edu.undec.mascotas.doamain" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programacion3-2020\undec-prog3-2020\mascotas\src\test" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_creaCliente">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,7 +211,8 @@
       <workItem from="1600182676547" duration="2286000" />
       <workItem from="1600211320508" duration="203000" />
       <workItem from="1600211645081" duration="6839000" />
-      <workItem from="1600290861602" duration="11610000" />
+      <workItem from="1600290861602" duration="11769000" />
+      <workItem from="1600449252043" duration="839000" />
     </task>
     <servers />
   </component>
@@ -236,11 +237,12 @@
     </state>
     <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600296798270" />
     <state x="1683" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600216326643" />
-    <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1600297121312">
+    <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1600449845815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600297121312" />
     <state x="1608" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600212965014" />
+    <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1600449845815" />
     <state x="1558" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600211331844">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
@@ -253,49 +255,49 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600290896892" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600311589949">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1600311589949">
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1600311589949">
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1600311870562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870562" />
     <state width="981" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1600311589949">
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311589949" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600295589191">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600295589191" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1600295589191">
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600295589191" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1600295589191">
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600295589191" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1600295589191">
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600295589191" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
     <state width="981" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1600311363847">
       <screen x="0" y="0" width="1366" height="728" />
@@ -305,11 +307,12 @@
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="1366" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600211030486" />
-    <state x="438" y="141" key="chooseDestDirectoryDialog" timestamp="1600297117158">
+    <state x="438" y="141" key="chooseDestDirectoryDialog" timestamp="1600449838238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600297117158" />
     <state x="1694" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600213628592" />
+    <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1600449838238" />
     <state x="1343" y="-20" width="1040" height="509" maximized="true" key="dock-window-1" timestamp="1600296342167">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>

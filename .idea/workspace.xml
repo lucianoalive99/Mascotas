@@ -27,9 +27,9 @@
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IcrearClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/ICrearClienteRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mascotas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mascotas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Mascota.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,31 +72,46 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TP2/Aeropuerto" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ar.edu.undec.mascotas.usecaseunittest" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="ar.edu.undec.mascotas.usecase.input" />
+      <recent name="ar.edu.undec.mascotas.exception" />
       <recent name="ar.edu.undec.mascotas.repositorio" />
+      <recent name="ar.edu.undec.mascotas.usecase.input" />
       <recent name="ar.edu.undec.mascotas.usecase" />
-      <recent name="ar.edu.undec.mascotas.doamain" />
+      <recent name="ar.edu.undec.mascotas.usecaseunittest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ar.edu.undec.mascotas.persistencia.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programacion3-2020\undec-prog3-2020\mascotas\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_creaCliente">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoficarMascotaUseCaseUnitTestTest.modificarMascota_DatosCorrectos_DatosModificados">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,22 +164,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearMascotaUseCaseUnitTest.crearMascota_mascotaNoExiste_creaMascota" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mascotas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ar.edu.undec.mascotas.usecaseunittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.usecaseunittest" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.usecaseunittest.CrearMascotaUseCaseUnitTest" />
-      <option name="METHOD_NAME" value="crearMascota_mascotaNoExiste_creaMascota" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CrearMascotaUseCaseUnitTest.crearMascota_mascotaYaExiste_mascotaExisteException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mascotas" />
       <extension name="coverage">
@@ -180,6 +180,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoficarMascotaUseCaseUnitTestTest.modificarMascota_DatosCorrectos_DatosModificados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mascotas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.undec.mascotas.usecaseunittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.usecaseunittest" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.usecaseunittest.MoficarMascotaUseCaseUnitTestTest" />
+      <option name="METHOD_NAME" value="modificarMascota_DatosCorrectos_DatosModificados" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MascotasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mascotas" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ar.edu.undec.mascotas.MascotasApplication" />
@@ -189,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoficarMascotaUseCaseUnitTestTest.modificarMascota_DatosCorrectos_DatosModificados" />
+        <item itemvalue="JUnit.CrearMascotaUseCaseUnitTest.crearMascota_mascotaYaExiste_mascotaExisteException" />
         <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_creaCliente" />
         <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteExiste_documentoExisteException" />
         <item itemvalue="JUnit.CrearClienteUseCaseUnitTest.crearCliente_clienteNoExiste_clienteMenorDeEdad" />
-        <item itemvalue="JUnit.CrearMascotaUseCaseUnitTest.crearMascota_mascotaYaExiste_mascotaExisteException" />
-        <item itemvalue="JUnit.CrearMascotaUseCaseUnitTest.crearMascota_mascotaNoExiste_creaMascota" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +228,10 @@
       <workItem from="1600211320508" duration="203000" />
       <workItem from="1600211645081" duration="6839000" />
       <workItem from="1600290861602" duration="11769000" />
-      <workItem from="1600449252043" duration="839000" />
+      <workItem from="1600449252043" duration="1159000" />
+      <workItem from="1600705519134" duration="720000" />
+      <workItem from="1600896354667" duration="3613000" />
+      <workItem from="1602552494225" duration="6410000" />
     </task>
     <servers />
   </component>
@@ -232,17 +251,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1600296798270">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1683" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1600898292327">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600296798270" />
-    <state x="1683" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600216326643" />
-    <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1600449845815">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1683" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600898292327" />
+    <state x="1608" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602556121182">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600297121312" />
-    <state x="1608" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600212965014" />
+    <state x="1608" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602556121182" />
     <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1600449845815" />
+    <state x="1607" y="182" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602553816901">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1607" y="182" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602553816901" />
     <state x="1558" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600211331844">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
@@ -251,33 +274,34 @@
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="1503" y="44" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600216932287" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600290896892">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1600707380073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600707380073" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600290896892" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1600311870563">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="179" key="GridCell.Tab.0.bottom" timestamp="1602558756113">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
-    <state width="981" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
+    <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602558756113" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1600311870563">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="179" key="GridCell.Tab.0.center" timestamp="1602558756113">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
-    <state width="981" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
+    <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602558756113" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1600311870562">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="179" key="GridCell.Tab.0.left" timestamp="1602558756113">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870562" />
-    <state width="981" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
+    <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602558756113" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1600311870563">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="981" height="179" key="GridCell.Tab.0.right" timestamp="1602558756113">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311870563" />
-    <state width="981" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
+    <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602558756113" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600292431787" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600311870563">
       <screen x="0" y="0" width="1366" height="728" />
@@ -307,12 +331,16 @@
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="1366" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600211030486" />
-    <state x="438" y="141" key="chooseDestDirectoryDialog" timestamp="1600449838238">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1694" y="141" key="chooseDestDirectoryDialog" timestamp="1602556397623">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600297117158" />
-    <state x="1694" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600213628592" />
+    <state x="1694" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602556397623" />
     <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1600449838238" />
+    <state x="1630" y="192" width="495" height="401" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602553931617">
+      <screen x="1366" y="0" width="1024" height="728" />
+    </state>
+    <state x="1630" y="192" width="495" height="401" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602553931617" />
     <state x="1343" y="-20" width="1040" height="509" maximized="true" key="dock-window-1" timestamp="1600296342167">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
@@ -322,9 +350,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311472214" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600298251607">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600899239969">
+      <screen x="1366" y="0" width="1024" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600298251607" />
+    <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600899239969" />
   </component>
 </project>

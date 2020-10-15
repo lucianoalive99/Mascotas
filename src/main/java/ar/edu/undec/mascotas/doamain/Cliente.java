@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Cliente {
 
-    private final String apellido;
-    private final String nombre;
+    private String apellido;
+    private String nombre;
     private final String documento;
-    private final LocalDate fechanacimiento;
+    private LocalDate fechanacimiento;
     private List<Mascota> listaMascotas;
 
     private Cliente(String apellido, String nombre, String documento, LocalDate fechanacimiento, List<Mascota> listaMascotas) {
@@ -27,8 +27,28 @@ public class Cliente {
     public String getDocumento() {
         return documento;
     }
+    private List<Mascota> getListaMAscotas() {
+        return listaMascotas;
+    }
+
+    private String getNombre() {
+        return nombre;
+    }
+
+    private String getApellido() {
+        return apellido;
+    }
 
     public LocalDate getFechaNacimiento() {
         return fechanacimiento;
     }
+
+    public void modificarDatosCliente(Cliente clienteModificado) {
+        this.apellido = clienteModificado.getApellido();
+        this.nombre = clienteModificado.getNombre();
+        this.fechanacimiento = clienteModificado.getFechaNacimiento();
+        this.listaMascotas = clienteModificado.getListaMAscotas();
+    }
+
+
 }

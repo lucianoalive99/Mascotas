@@ -1,10 +1,11 @@
 package ar.edu.undec.mascotas.usecaseunittest;
 
 import Mockito.MockitoExtension;
-import ar.edu.undec.mascotas.doamain.Mascota;
-import ar.edu.undec.mascotas.exception.mascotaExisteException;
-import ar.edu.undec.mascotas.repositorio.ICrearMascotaRepositorio;
-import ar.edu.undec.mascotas.usecase.CrearMascotaUseCase;
+import ar.edu.undec.mascotas.core.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import ar.edu.undec.mascotas.core.exception.mascotaExisteException;
+import ar.edu.undec.mascotas.core.repositorio.ICrearMascotaRepositorio;
+import ar.edu.undec.mascotas.core.usecase.CrearMascotaUseCase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -28,7 +29,7 @@ public class CrearMascotaUseCaseUnitTest {
 
         //simulacion de base de datos
         when(crearMascotaRepositorio.existe(laMascota.getNombre())).thenReturn(false);
-        when(crearMascotaRepositorio.guardarMascota(laMascota)).thenReturn(true);
+        when(crearMascotaRepositorio.guardarMascota(laMascota )).thenReturn(true);
 
         //act
         boolean resultado= crearMascotaUseCase.crearMascota(laMascota);

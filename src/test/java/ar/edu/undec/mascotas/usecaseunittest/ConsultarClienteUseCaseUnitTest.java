@@ -1,10 +1,10 @@
 package ar.edu.undec.mascotas.usecaseunittest;
 
 import Mockito.MockitoExtension;
-import ar.edu.undec.mascotas.doamain.Cliente;
-import ar.edu.undec.mascotas.doamain.Mascota;
-import ar.edu.undec.mascotas.repositorio.IConsultarClienteRepositorio;
-import ar.edu.undec.mascotas.usecase.ConsultarClienteUseCase;
+import ar.edu.undec.mascotas.core.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import ar.edu.undec.mascotas.core.repositorio.IConsultarClienteRepositorio;
+import ar.edu.undec.mascotas.core.usecase.ConsultarClienteUseCase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -48,7 +48,7 @@ public class ConsultarClienteUseCaseUnitTest {
         Cliente cliente1 = Cliente.instancia("Alive","Luciano","35064555",
                 LocalDate.of(1990,4,13), mascotaList1);
         Cliente cliente2 = Cliente.instancia("Oviedo","Sebastian","24661887",
-                LocalDate.of(1991,5,14), mascotaList1);
+                LocalDate.of(1991,5,14), mascotaList2);
         clienteList.add(cliente1);
         clienteList.add(cliente2);
         return clienteList;

@@ -1,9 +1,9 @@
 package ar.edu.undec.mascotas.usecaseunittest;
 
 import Mockito.MockitoExtension;
-import ar.edu.undec.mascotas.doamain.Mascota;
-import ar.edu.undec.mascotas.repositorio.IConsultarMascotaRepositorio;
-import ar.edu.undec.mascotas.usecase.ConsultarMascotaUseCase;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import ar.edu.undec.mascotas.core.repositorio.IConsultarMascotaRepositorio;
+import ar.edu.undec.mascotas.core.usecase.ConsultarMascotaUseCase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

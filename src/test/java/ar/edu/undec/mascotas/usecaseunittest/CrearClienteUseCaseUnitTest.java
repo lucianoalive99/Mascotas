@@ -2,12 +2,12 @@ package ar.edu.undec.mascotas.usecaseunittest;
 
 
 import Mockito.MockitoExtension;
-import ar.edu.undec.mascotas.doamain.Cliente;
-import ar.edu.undec.mascotas.doamain.Mascota;
-import ar.edu.undec.mascotas.exception.clienteMenorEdadException;
-import ar.edu.undec.mascotas.exception.documentoExisteException;
-import ar.edu.undec.mascotas.repositorio.ICrearClienteRepositorio;
-import ar.edu.undec.mascotas.usecase.CrearClienteUseCase;
+import ar.edu.undec.mascotas.core.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import ar.edu.undec.mascotas.core.exception.clienteMenorEdadException;
+import ar.edu.undec.mascotas.core.exception.documentoExisteException;
+import ar.edu.undec.mascotas.core.repositorio.ICrearClienteRepositorio;
+import ar.edu.undec.mascotas.core.usecase.CrearClienteUseCase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

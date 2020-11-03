@@ -22,6 +22,9 @@ public class CreaClienteRespositoriImplemtation implements ICrearClienteReposito
     @Autowired
     ICrearMascotaCRUD crearMascotaCRUD;
 
+    @Autowired
+    ConsultaClienteRepositoriImplementation consultaClienteRepositoriImplementation;
+
     @Override
     public boolean existeDocumento(String documento) {
         return false;
@@ -30,19 +33,24 @@ public class CreaClienteRespositoriImplemtation implements ICrearClienteReposito
     @Override
     public boolean guardarCliente(Cliente elCliente) {
         ClienteEntity clienteEntity = new ClienteEntity();
-        List<MascotaEntity> listamascotaEntity = new ArrayList<>();
 
-        clienteEntity.setApellido(elCliente.getApellido());
-        clienteEntity.setNombre(elCliente.getNombre());
-        clienteEntity.setDocumento(elCliente.getDocumento());
-        clienteEntity.setFechanacimiento(elCliente.getFechaNacimiento());
-        crearClienteCRUD.save(clienteEntity);
+        if(consultaClienteRepositoriImplementation.findByDocumento(elCliente.getDocumento()).equals(elCliente.getDocumento())){
+            clienteEntity.setApellido(elCliente.getApellido());
+            clienteEntity.setNombre(elCliente.getNombre());
+            clienteEntity.setDocumento(elCliente.getDocumento());
+            clienteEntity.setFechanacimiento(elCliente.getFechaNacimiento());
 
-        for (Mascota mascota : elCliente.getListaMascotas()) {
-            MascotaEntity mascotaEnti = MascotaEntity.mascotaToMascotaEntity(clienteEntity,mascota);
-            crearMascotaCRUD.save(mascotaEnti);
+            crearClienteCRUD.save(clienteEntity);
+            for (Mascota mascota : elCliente.getCollectionaMascotas()) {
+                MascotaEntity mascotaEnti = MascotaEntity.mascotaToMascotaEntity(clienteEntity,mascota);
+                crearMascotaCRUD.save(mascotaEnti);
+            }
+            return this.crearClienteCRUD.save(clienteEntity).getIdcliente()!=null;
         }
-        return this.crearClienteCRUD.save(clienteEntity).getIdcliente()!=null;
+        else {
+            return false;
+        }
+
     }
 
     @Override

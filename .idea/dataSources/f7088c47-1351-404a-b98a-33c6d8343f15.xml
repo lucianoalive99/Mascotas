@@ -1556,6 +1556,7 @@ true posixrules
     </sequence>
     <table id="31" parent="17" name="mascotas">
       <ObjectId>32779</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>505</StateNumber>
     </table>

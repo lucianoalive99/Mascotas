@@ -1,7 +1,8 @@
 package ar.edu.undec.mascotas.core.doamain;
 
 import java.time.LocalDate;
-import java.util.List;
+import java.util.Collection;
+import java.util.Collection;
 
 public class Cliente {
 
@@ -9,15 +10,15 @@ public class Cliente {
     private String nombre;
     private String documento;
     private LocalDate fechanacimiento;
-    private List<Mascota> listaMascotas;
+    private Collection<Mascota> CollectionaMascotas;
 
-    public Cliente(String apellido, String nombre, String documento, LocalDate fechanacimiento, List<Mascota> listaMascotas) {
+    public Cliente(String apellido, String nombre, String documento, LocalDate fechanacimiento, Collection<Mascota> CollectionaMascotas) {
 
         this.apellido = apellido;
         this.nombre = nombre;
         this.documento = documento;
         this.fechanacimiento = fechanacimiento;
-        this.listaMascotas = listaMascotas;
+        this.CollectionaMascotas = CollectionaMascotas;
 
     }
 
@@ -25,15 +26,26 @@ public class Cliente {
 
     }
 
-    public static Cliente instancia(String apellido, String nombre, String documento, LocalDate fechanacimiento, List<Mascota> listaMascotas) {
-        return new Cliente(apellido,nombre,documento,fechanacimiento, listaMascotas);
+    public Cliente(String apellido, String nombre, String documento, LocalDate fechanacimiento) {
+        this.apellido = apellido;
+        this.nombre = nombre;
+        this.documento = documento;
+        this.fechanacimiento = fechanacimiento;
+    }
+
+    public static Cliente instancia(String apellido, String nombre, String documento, LocalDate fechanacimiento, Collection<Mascota> CollectionaMascotas) {
+        return new Cliente(apellido,nombre,documento,fechanacimiento, CollectionaMascotas);
+    }
+
+    public static Cliente instancia(String apellido, String nombre, String documento, LocalDate fechanacimiento) {
+        return new Cliente(apellido,nombre,documento,fechanacimiento);
     }
 
     public String getDocumento() {
         return documento;
     }
-    public List<Mascota> getListaMascotas() {
-        return listaMascotas;
+    public Collection<Mascota> getCollectionaMascotas() {
+        return CollectionaMascotas;
     }
 
     public String getNombre() {
@@ -64,11 +76,15 @@ public class Cliente {
         this.fechanacimiento = fechanacimiento;
     }
 
+    public void setCollectionaMascotas(Collection<Mascota> collectionaMascotas) {
+        CollectionaMascotas = collectionaMascotas;
+    }
+
     public void modificarDatosCliente(Cliente clienteModificado) {
         this.apellido = clienteModificado.getApellido();
         this.nombre = clienteModificado.getNombre();
         this.fechanacimiento = clienteModificado.getFechaNacimiento();
-        this.listaMascotas = clienteModificado.getListaMascotas();
+        this.CollectionaMascotas = clienteModificado.getCollectionaMascotas();
     }
 
 

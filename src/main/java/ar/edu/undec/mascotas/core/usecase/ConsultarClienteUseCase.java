@@ -4,7 +4,7 @@ import ar.edu.undec.mascotas.core.doamain.Cliente;
 import ar.edu.undec.mascotas.core.repositorio.IConsultarClienteRepositorio;
 import ar.edu.undec.mascotas.core.usecase.input.IConsultarClienteUseCase;
 
-import java.util.List;
+import java.util.Collection;
 
 public class ConsultarClienteUseCase implements IConsultarClienteUseCase {
 
@@ -17,7 +17,7 @@ public class ConsultarClienteUseCase implements IConsultarClienteUseCase {
 
 
     @Override
-    public List<Cliente> consultarClientes() {
+    public Collection<Cliente> consultarClientes() {
         return this.consultarClienteRepositorio.findAll();
     }
 }

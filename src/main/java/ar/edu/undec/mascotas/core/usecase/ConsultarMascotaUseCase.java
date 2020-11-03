@@ -16,6 +16,6 @@ public class ConsultarMascotaUseCase implements IConsultarMascotaUseCase {
 
     @Override
     public List<Mascota> consultarMascotas() {
-        return this.consultarMascotaRepositorio.findAll();
+        return consultarMascotaRepositorio.devolverMAscotas();
     }
 }

@@ -26,43 +26,30 @@
       <change afterPath="$PROJECT_DIR$/../TP2/miprimeraplicacion/src/main/java/ar/edu/undec/miprimeraplicacion/controller/RestauranteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/Aeropuerto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mascotas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mascotas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/doamain/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/exception/clienteMenorEdadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/exception/clienteMenorEdadException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/exception/documentoExisteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/exception/documentoExisteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/exception/mascotaExisteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/exception/mascotaExisteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/exception/modificarClienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/exception/modificarClienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/exception/modificarMascotaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/exception/modificarMascotaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IConsultarClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarClienteRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IConsultarMascotaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarMascotaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/ICrearClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/ICrearClienteRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/ICrearMascotaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/ICrearMascotaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IModificarClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IModificarClienteRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/repositorio/IModificarMascotaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IModificarMascotaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/ConsultarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/ConsultarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/CrearClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/CrearMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/CrearMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/ModificarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ModificarClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/ModificarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ModificarMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/IConsultarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/IConsultarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/ICrearClientetaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearClientetaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/ICrearMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/IModificarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarClienteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/usecase/input/IModificarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarClienteRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarClienteRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarMascotaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/IConsultarMascotaRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarClienteUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/ConsultarMascotaUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarClienteUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IConsultarMascotaUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearClientetaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearClientetaUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearMascotaUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarClienteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarClienteUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/IModificarMascotaUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultarMascotasRepositoriImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultarMascotasRepositoriImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/crud/IConsultarMascotaCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/crud/IConsultarMascotaCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/crud/ICrearMascotaCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/crud/ICrearMascotaCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearClienteDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearClienteDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ConsultarClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ConsultarClienteUseCaseUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ConsultarMascotaUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ConsultarMascotaUseCaseUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearClienteUseCaseUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearMascotaUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearMascotaUseCaseUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ModificarClienteUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/ModificarClienteUseCaseUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/MoficarMascotaUseCaseUnitTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/MoficarMascotaUseCaseUnitTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,18 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos">
     <configuration name="ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mascotas" />
       <extension name="coverage">
@@ -172,6 +148,22 @@
       <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
       <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.ConsultaClienteDataTest" />
       <option name="METHOD_NAME" value="consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mascotas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.undec.mascotas.persistenceunittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.ConsultaClienteDataTest" />
+      <option name="METHOD_NAME" value="consultarClientes_ClientesExisten_ClientesDevueltos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,22 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mascotas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ar.edu.undec.mascotas.persistenceunittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.CrearMascotaDataTest" />
-      <option name="METHOD_NAME" value="crearMascota_MascotaNoExiste_CrearCorrectamente" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MascotasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mascotas" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ar.edu.undec.mascotas.MascotasApplication" />
@@ -249,20 +225,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" />
       <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteNoExiste_CrearCorrectamente" />
-      <item itemvalue="Spring Boot.MascotasApplication" />
       <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" />
       <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" />
       <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
+      <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" />
+      <item itemvalue="Spring Boot.MascotasApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" />
         <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
+        <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteNoExiste_CrearCorrectamente" />
         <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" />
         <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" />
-        <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteNoExiste_CrearCorrectamente" />
-        <item itemvalue="JUnit.CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +272,11 @@
       <workItem from="1603369237950" duration="600000" />
       <workItem from="1603570088297" duration="4473000" />
       <workItem from="1603636921602" duration="9720000" />
-      <workItem from="1603672626725" duration="14284000" />
+      <workItem from="1603672626725" duration="14722000" />
+      <workItem from="1603763641049" duration="860000" />
+      <workItem from="1603783089084" duration="1367000" />
+      <workItem from="1603922590715" duration="14824000" />
+      <workItem from="1604155044698" duration="5300000" />
     </task>
     <servers />
   </component>
@@ -338,12 +318,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603310662602" />
-    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1603690520213">
+    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1604159473370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603305636355" />
+    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603935765956" />
     <state x="1683" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602877822363" />
-    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603690520213" />
+    <state x="423" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604159473370" />
     <state x="323" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1603327454376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -376,10 +356,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603638717920" />
-    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1603574381492">
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1604156802736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603574381492" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603934985452" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604156802736" />
     <state width="444" height="438" key="DebuggerActiveHint" timestamp="1603686800212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -393,54 +374,54 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603310751008" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600290896892" />
-    <state width="1323" height="256" key="GridCell.Tab.0.bottom" timestamp="1603691273899">
+    <state width="637" height="252" key="GridCell.Tab.0.bottom" timestamp="1604187998703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603691273899" />
-    <state width="1323" height="256" key="GridCell.Tab.0.center" timestamp="1603691273899">
+    <state width="637" height="252" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604187998703" />
+    <state width="637" height="252" key="GridCell.Tab.0.center" timestamp="1604187998702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="256" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603691273899" />
-    <state width="1323" height="256" key="GridCell.Tab.0.left" timestamp="1603691273899">
+    <state width="637" height="252" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604187998702" />
+    <state width="637" height="252" key="GridCell.Tab.0.left" timestamp="1604187998702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="256" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603691273899" />
-    <state width="1323" height="256" key="GridCell.Tab.0.right" timestamp="1603691273899">
+    <state width="637" height="252" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604187998702" />
+    <state width="637" height="252" key="GridCell.Tab.0.right" timestamp="1604187998702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="256" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603691273899" />
-    <state width="1323" height="256" key="GridCell.Tab.1.bottom" timestamp="1603691273900">
+    <state width="637" height="252" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604187998702" />
+    <state width="637" height="252" key="GridCell.Tab.1.bottom" timestamp="1604187998703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="256" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603691273900" />
-    <state width="1323" height="256" key="GridCell.Tab.1.center" timestamp="1603691273900">
+    <state width="637" height="252" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604187998703" />
+    <state width="637" height="252" key="GridCell.Tab.1.center" timestamp="1604187998703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="256" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603691273900" />
-    <state width="1323" height="256" key="GridCell.Tab.1.left" timestamp="1603691273900">
+    <state width="637" height="252" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604187998703" />
+    <state width="637" height="252" key="GridCell.Tab.1.left" timestamp="1604187998703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169102" />
     <state width="981" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="256" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603691273900" />
-    <state width="1323" height="256" key="GridCell.Tab.1.right" timestamp="1603691273900">
+    <state width="637" height="252" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604187998703" />
+    <state width="637" height="252" key="GridCell.Tab.1.right" timestamp="1604187998703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603312837446" />
+    <state width="1323" height="256" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="256" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603691273900" />
+    <state width="637" height="252" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604187998703" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603308761654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -470,6 +451,10 @@
     <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1602712776875" />
     <state x="1694" y="141" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602877002783" />
     <state x="438" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1603317042836" />
+    <state x="582" y="305" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1603933890803">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="305" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603933890803" />
     <state x="439" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603681491550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -488,10 +473,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1602896538933" />
-    <state x="383" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1603690202442">
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1603935205918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600311472214" />
+    <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603935205918" />
     <state x="1653" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602681812845" />
     <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1603690202442" />
     <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602681299749">
@@ -504,9 +489,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="10" />
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

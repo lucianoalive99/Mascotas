@@ -1,10 +1,14 @@
 package ar.edu.undec.mascotas.persistencia.entity;
 
 import ar.edu.undec.mascotas.core.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
 
 @Entity(name="clientes")
 @SequenceGenerator(name="clientes_id_seq", initialValue = 1, sequenceName = "clientes_id_seq",allocationSize = 1)
@@ -24,7 +28,7 @@ public class ClienteEntity {
     @Column(name = "fechanacimiento")
     private LocalDate fechanacimiento;
 
-
+    @JsonIgnore
     @OneToMany(mappedBy = "cliente")
     private Collection<MascotaEntity> mascotasById;
 
@@ -70,6 +74,7 @@ public class ClienteEntity {
     }
 
 
+
     public Collection<MascotaEntity> getMascotasById() {
         return mascotasById;
     }
@@ -78,16 +83,38 @@ public class ClienteEntity {
         this.mascotasById = mascotasById;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ClienteEntity cliente = (ClienteEntity) o;
+        return Objects.equals(idcliente, cliente.idcliente) &&
+                Objects.equals(nombre, cliente.nombre) &&
+                Objects.equals(apellido, cliente.apellido) &&
+                Objects.equals(documento, cliente.documento) &&
+                Objects.equals(fechanacimiento, cliente.fechanacimiento);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idcliente, nombre, apellido, documento,fechanacimiento);
+    }
+
     public ClienteEntity() {
     }
 
     public static Cliente clienteEntityToCliente(ClienteEntity clienteEntity) {
+        Collection<Mascota> mascotaCollection = new ArrayList<>();
         Cliente elCliente = new Cliente();
         elCliente.setNombre(clienteEntity.getNombre());
         elCliente.setApellido(clienteEntity.getApellido());
         elCliente.setDocumento(clienteEntity.getDocumento());
         elCliente.setFechanacimiento(clienteEntity.getFechanacimiento());
-
+        /*for (MascotaEntity mascotaEntity : clienteEntity.getMascotasById()){
+            mascotaCollection.add(Mascota.instancia(mascotaEntity.getNombre(),mascotaEntity.getRaza(),mascotaEntity.getFechaNacimiento()));
+        }
+        elCliente.setCollectionaMascotas(mascotaCollection);
+*/
         return elCliente;
     }
 }

@@ -26,13 +26,13 @@ public class CrearClienteDataTest {
     @Test
     public void crearCliente_ClienteNoExiste_CrearCorrectamente(){
         List<Mascota> mascotaList = new ArrayList<>();
-        Mascota mascota1 = Mascota.instancia("simon","boxer", LocalDate.of(2015,2,11));
-        Mascota mascota2 = Mascota.instancia("simon","caniche", LocalDate.of(2018,5,22));
+        Mascota mascota1 = Mascota.instancia("gino","pastor aleman", LocalDate.of(2015,2,11));
+        Mascota mascota2 = Mascota.instancia("luna","calle", LocalDate.of(2018,5,22));
         mascotaList.add(mascota1);
         mascotaList.add(mascota2);
 
-        Cliente elCliente = Cliente.instancia("Alive","Luciano","35064555",
-                LocalDate.of(1990,4,13), mascotaList);
+        Cliente elCliente = Cliente.instancia("Oviedo","Sebastian","35064556",
+                LocalDate.of(1991,5,12), mascotaList);
 
         boolean resultado = creaClienteRespositoriImplemtation.guardarCliente(elCliente);
         Assertions.assertTrue(resultado);

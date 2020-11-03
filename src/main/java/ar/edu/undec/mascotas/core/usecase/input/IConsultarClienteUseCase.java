@@ -1,9 +1,9 @@
-package ar.edu.undec.mascotas.usecase.input;
+package ar.edu.undec.mascotas.core.usecase.input;
 
-import ar.edu.undec.mascotas.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Cliente;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface IConsultarClienteUseCase {
-    List<Cliente> consultarClientes();
+    Collection<Cliente> consultarClientes();
 }

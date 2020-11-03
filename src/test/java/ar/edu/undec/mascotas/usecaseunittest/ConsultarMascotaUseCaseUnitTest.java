@@ -24,7 +24,7 @@ public class ConsultarMascotaUseCaseUnitTest {
     @Test
     public void consultarMascota_MascotasExiste_DevuelveLista(){
 
-        when(consultarMascotaRepositorio.findAll()).thenReturn(mascotaList());
+        when(consultarMascotaRepositorio.devolverMAscotas()).thenReturn(mascotaList());
         ConsultarMascotaUseCase consultarMascotaUseCase = new ConsultarMascotaUseCase(consultarMascotaRepositorio);
 
         List<Mascota> mascotasDevueltas = consultarMascotaUseCase.consultarMascotas();

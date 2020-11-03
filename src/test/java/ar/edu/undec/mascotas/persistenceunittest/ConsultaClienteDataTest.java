@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 @SpringBootTest
 public class ConsultaClienteDataTest {
 
@@ -19,6 +22,15 @@ public class ConsultaClienteDataTest {
         Cliente elCliente = consultaClienteRepositoriImplementation.findByDocumento("35064555");
 
         Assertions.assertEquals("35064555", elCliente.getDocumento());
+
+    }
+
+    @Test
+    void consultarClientes_ClientesExisten_ClientesDevueltos(){
+
+        Collection<Cliente> clienteCollection = consultaClienteRepositoriImplementation.findAll();
+
+        Assertions.assertNotNull(clienteCollection);
 
     }
 }

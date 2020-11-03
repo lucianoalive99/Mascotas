@@ -12,7 +12,7 @@ import java.util.List;
 public interface IConsultarMascotaRepositorio {
     Mascota findByNombre(String nombre);
 
-    List<Mascota> findAll();
+    List<Mascota> devolverMAscotas();
 
 
 }

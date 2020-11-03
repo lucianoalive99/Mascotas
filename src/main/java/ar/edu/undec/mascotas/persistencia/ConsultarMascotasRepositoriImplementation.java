@@ -7,6 +7,7 @@ import ar.edu.undec.mascotas.persistencia.entity.MascotaEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -28,7 +29,12 @@ public class ConsultarMascotasRepositoriImplementation implements IConsultarMasc
     }
 
     @Override
-    public List<Mascota> findAll() {
-        return null;
+    public List<Mascota> devolverMAscotas() {
+
+        List<Mascota> mascotaList = new ArrayList<>();
+        consultarMascotaCRUD.findAll().forEach(mascotaEntity ->
+                mascotaList.add(Mascota.instancia(mascotaEntity.getNombre(), mascotaEntity.getRaza(),
+                        mascotaEntity.getFechaNacimiento())));
+        return mascotaList;
     }
 }

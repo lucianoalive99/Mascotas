@@ -1,7 +1,7 @@
-package ar.edu.undec.mascotas.usecase.input;
+package ar.edu.undec.mascotas.core.usecase.input;
 
-import ar.edu.undec.mascotas.doamain.Mascota;
-import ar.edu.undec.mascotas.exception.mascotaExisteException;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
+import ar.edu.undec.mascotas.core.exception.mascotaExisteException;
 
 public interface ICrearMascotaUseCase {
 

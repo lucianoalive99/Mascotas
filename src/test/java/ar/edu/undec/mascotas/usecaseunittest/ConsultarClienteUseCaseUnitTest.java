@@ -12,6 +12,7 @@ import org.mockito.Mock;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
@@ -27,7 +28,7 @@ public class ConsultarClienteUseCaseUnitTest {
         when(consultarClienteRepositorio.findAll()).thenReturn(clientesList());
         ConsultarClienteUseCase consultarClienteUseCase = new ConsultarClienteUseCase(consultarClienteRepositorio);
 
-        List<Cliente> clientesDevueltos = consultarClienteUseCase.consultarClientes();
+        Collection<Cliente> clientesDevueltos = consultarClienteUseCase.consultarClientes();
         Assertions.assertEquals(2,clientesDevueltos.size());
 
     }

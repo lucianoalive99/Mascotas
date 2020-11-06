@@ -24,13 +24,17 @@ public class MascotaEntity{
     @Column(name="fechanacimiento")
     private LocalDate fechaNacimiento;
 
-    @ManyToOne
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-    @JsonIdentityReference(alwaysAsId = true)
-    @JoinColumn(name = "idcliente",referencedColumnName = "idcliente", nullable = false)
+    @ManyToOne(fetch = FetchType.EAGER)
     private ClienteEntity cliente;
 
     public MascotaEntity() {
+    }
+
+    public MascotaEntity(Integer idMascota, String nombre, String raza, LocalDate fechaNacimiento) {
+        this.idMascota = idMascota;
+        this.nombre = nombre;
+        this.raza = raza;
+        this.fechaNacimiento = fechaNacimiento;
     }
 
     public void setIdMascota(Integer idMascota) {
@@ -84,12 +88,12 @@ public class MascotaEntity{
         return mascota;
     }
 
-    public static MascotaEntity mascotaToMascotaEntity(ClienteEntity cliente, Mascota mascota){
+    public static MascotaEntity mascotaToMascotaEntity(Mascota mascota){
         MascotaEntity mascotaEntity = new MascotaEntity();
         mascotaEntity.setNombre(mascota.getNombre());
         mascotaEntity.setRaza(mascota.getRaza());
         mascotaEntity.setFechaNacimiento(mascota.getFechaNacimiento());
-        mascotaEntity.setCliente(cliente);
+        //mascotaEntity.setCliente(cliente);
 
         return mascotaEntity;
     }

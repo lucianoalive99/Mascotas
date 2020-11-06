@@ -18,9 +18,9 @@ public class ConsultaMascotaDataTest {
 
     @Test
     void consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta() {
-        Mascota laMascota = consultarMascotasRepositoriImplementation.findByNombre("gina");
+        Mascota laMascota = consultarMascotasRepositoriImplementation.findByNombre("gino");
 
-        Assertions.assertEquals("gina", laMascota.getNombre());
+        Assertions.assertEquals("gino", laMascota.getNombre());
     }
 
     /*@Test

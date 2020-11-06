@@ -29,10 +29,10 @@ public class CrearMascotaUseCaseUnitTest {
 
         //simulacion de base de datos
         when(crearMascotaRepositorio.existe(laMascota.getNombre())).thenReturn(false);
-        when(crearMascotaRepositorio.guardarMascota(laMascota )).thenReturn(true);
+        when(crearMascotaRepositorio.guardarMascota(laMascota , "35064555")).thenReturn(true);
 
         //act
-        boolean resultado= crearMascotaUseCase.crearMascota(laMascota);
+        boolean resultado= crearMascotaUseCase.crearMascota(laMascota, "35064555");
 
         //assert
         Assertions.assertTrue(resultado);
@@ -51,6 +51,6 @@ public class CrearMascotaUseCaseUnitTest {
         //boolean resultado= crearMascotaUseCase.crearMascota(laMascota);
 
         //assert
-        Assertions.assertThrows(mascotaExisteException.class,()->crearMascotaUseCase.crearMascota(laMascota));
+        Assertions.assertThrows(mascotaExisteException.class,()->crearMascotaUseCase.crearMascota(laMascota, "35064555"));
     }
 }

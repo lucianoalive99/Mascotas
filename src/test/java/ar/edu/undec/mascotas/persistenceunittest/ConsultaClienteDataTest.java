@@ -27,7 +27,6 @@ public class ConsultaClienteDataTest {
 
     @Test
     void consultarClientes_ClientesExisten_ClientesDevueltos(){
-
         Collection<Cliente> clienteCollection = consultaClienteRepositoriImplementation.findAll();
 
         Assertions.assertNotNull(clienteCollection);

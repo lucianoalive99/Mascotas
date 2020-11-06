@@ -11,8 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class CreaClienteRespositoriImplemtation implements ICrearClienteRepositorio {
@@ -27,25 +31,36 @@ public class CreaClienteRespositoriImplemtation implements ICrearClienteReposito
 
     @Override
     public boolean existeDocumento(String documento) {
-        return false;
+        if(consultaClienteRepositoriImplementation.findByDocumento(documento).getDocumento()==null){
+            return true;
+        }else {
+            return false;
+        }
     }
 
     @Override
     public boolean guardarCliente(Cliente elCliente) {
-        ClienteEntity clienteEntity = new ClienteEntity();
 
-        if(consultaClienteRepositoriImplementation.findByDocumento(elCliente.getDocumento()).equals(elCliente.getDocumento())){
+        //Cliente cliente=consultaClienteRepositoriImplementation.findByDocumento(elCliente.getDocumento());
+
+        if(existeDocumento(elCliente.getDocumento())&& !menorDeEdad(elCliente.getFechaNacimiento())){
+            ClienteEntity clienteEntity = new ClienteEntity();
+            Collection<MascotaEntity> mascotaEntityCollection = new ArrayList<>();
+
+            for (Mascota mascota : elCliente.getCollectionaMascotas()){
+                MascotaEntity mascotaEntity = MascotaEntity.mascotaToMascotaEntity(mascota);
+                crearMascotaCRUD.save(mascotaEntity);
+                mascotaEntityCollection.add(mascotaEntity);
+            }
+
             clienteEntity.setApellido(elCliente.getApellido());
             clienteEntity.setNombre(elCliente.getNombre());
             clienteEntity.setDocumento(elCliente.getDocumento());
             clienteEntity.setFechanacimiento(elCliente.getFechaNacimiento());
+            clienteEntity.setMascotasById(mascotaEntityCollection);
 
-            crearClienteCRUD.save(clienteEntity);
-            for (Mascota mascota : elCliente.getCollectionaMascotas()) {
-                MascotaEntity mascotaEnti = MascotaEntity.mascotaToMascotaEntity(clienteEntity,mascota);
-                crearMascotaCRUD.save(mascotaEnti);
-            }
-            return this.crearClienteCRUD.save(clienteEntity).getIdcliente()!=null;
+            this.crearClienteCRUD.save(clienteEntity);
+            return clienteEntity.getIdcliente()!=null;
         }
         else {
             return false;
@@ -55,6 +70,16 @@ public class CreaClienteRespositoriImplemtation implements ICrearClienteReposito
 
     @Override
     public boolean menorDeEdad(LocalDate fechaNacimiento) {
-        return false;
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        fechaNacimiento.format(fmt);
+        LocalDate ahora = LocalDate.now();
+
+        Period periodo = Period.between(fechaNacimiento, ahora);
+        if(periodo.getYears()<18){
+            return true;
+        }else {
+            return false;
+        }
+
     }
 }

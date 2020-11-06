@@ -1,15 +1,18 @@
 package ar.edu.undec.mascotas.persistencia;
 
 import ar.edu.undec.mascotas.core.doamain.Cliente;
+import ar.edu.undec.mascotas.core.doamain.Mascota;
 import ar.edu.undec.mascotas.core.repositorio.IConsultarClienteRepositorio;
 import ar.edu.undec.mascotas.persistencia.crud.IConsultarClienteCRUD;
 import ar.edu.undec.mascotas.persistencia.crud.IConsultarMascotaCRUD;
 import ar.edu.undec.mascotas.persistencia.entity.ClienteEntity;
+import ar.edu.undec.mascotas.persistencia.entity.MascotaEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.stream.Collectors;
 
 @Service
 public class ConsultaClienteRepositoriImplementation implements IConsultarClienteRepositorio {
@@ -36,23 +39,20 @@ public class ConsultaClienteRepositoriImplementation implements IConsultarClient
     public Collection<Cliente> findAll() {
 
         Collection<Cliente> clientList = new ArrayList<>();
+        //Collection<Mascota> mascotas = new ArrayList<>();
                 consultarClienteCRUD.findAll().forEach(clienteEntity ->
                         clientList.add(Cliente.instancia(clienteEntity.getApellido(), clienteEntity.getNombre(),
-                                clienteEntity.getDocumento(), clienteEntity.getFechanacimiento())));
-        /*Cliente elCliente=new Cliente();
+                                clienteEntity.getDocumento(), clienteEntity.getFechanacimiento(),
+                                clienteEntity.getMascotasById().stream().map(
+                                        MascotaEntity::mascotaEntityToMascota).
+                                        collect(Collectors.toCollection(ArrayList::new)))));
 
 
-        /*for (ClienteEntity clienteEntity : clienteEntityList) {
-            {
-                for (MascotaEntity laMascotaEntity : mascotaEntities){
-                    if(clienteEntity.getIdcliente().equals(laMascotaEntity.getCliente().getIdcliente())){
-                        elCliente=ClienteEntity.clienteEntityToCliente(clienteEntity);
-                        clienteCollection.add(elCliente);
-                    }
-                }
 
-            }
-*/
+                /*stream().map(mascotaEntity ->
+                                        Mascota.instancia(mascotaEntity.getNombre(), mascotaEntity.getRaza(),
+                                                mascotaEntity.getFechaNacimiento())).collect(Collectors.toList()))));*/
+
 
         return clientList;
     }

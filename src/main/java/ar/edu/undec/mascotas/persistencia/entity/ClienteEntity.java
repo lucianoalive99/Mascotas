@@ -5,6 +5,7 @@ import ar.edu.undec.mascotas.core.doamain.Mascota;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import javax.persistence.criteria.Fetch;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -28,8 +29,7 @@ public class ClienteEntity {
     @Column(name = "fechanacimiento")
     private LocalDate fechanacimiento;
 
-    @JsonIgnore
-    @OneToMany(mappedBy = "cliente")
+    @OneToMany(mappedBy = "cliente", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private Collection<MascotaEntity> mascotasById;
 
 
@@ -110,11 +110,11 @@ public class ClienteEntity {
         elCliente.setApellido(clienteEntity.getApellido());
         elCliente.setDocumento(clienteEntity.getDocumento());
         elCliente.setFechanacimiento(clienteEntity.getFechanacimiento());
-        /*for (MascotaEntity mascotaEntity : clienteEntity.getMascotasById()){
-            mascotaCollection.add(Mascota.instancia(mascotaEntity.getNombre(),mascotaEntity.getRaza(),mascotaEntity.getFechaNacimiento()));
+        for (MascotaEntity mascotaEntity : clienteEntity.getMascotasById()){
+            mascotaCollection.add(MascotaEntity.mascotaEntityToMascota(mascotaEntity));
         }
         elCliente.setCollectionaMascotas(mascotaCollection);
-*/
+
         return elCliente;
     }
 }

@@ -31,8 +31,8 @@ public class CrearClienteDataTest {
         mascotaList.add(mascota1);
         mascotaList.add(mascota2);
 
-        Cliente elCliente = Cliente.instancia("Oviedo","Sebastian","35064556",
-                LocalDate.of(1991,5,12), mascotaList);
+        Cliente elCliente = Cliente.instancia("Casiva","Laura","35541555",
+                LocalDate.of(2002,11,4),mascotaList);
 
         boolean resultado = creaClienteRespositoriImplemtation.guardarCliente(elCliente);
         Assertions.assertTrue(resultado);

@@ -14,13 +14,13 @@ public class CrearMascotaUseCase implements ICrearMascotaUseCase {
     }
 
     @Override
-    public boolean crearMascota(Mascota laMascota) throws mascotaExisteException {
+    public boolean crearMascota(Mascota laMascota, String documento) throws mascotaExisteException {
         if(crearMascotaRepositorio.existe(laMascota.getNombre())){
             throw new mascotaExisteException("La mascota ya existe en el sistema.");
         }
         else
         {
-            crearMascotaRepositorio.guardarMascota(laMascota);
+            crearMascotaRepositorio.guardarMascota(laMascota,documento);
             return true;
         }
     }

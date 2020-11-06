@@ -5,5 +5,5 @@ import ar.edu.undec.mascotas.core.exception.mascotaExisteException;
 
 public interface ICrearMascotaUseCase {
 
-    boolean crearMascota(Mascota laMascota) throws mascotaExisteException;
+    boolean crearMascota(Mascota laMascota, String documento) throws mascotaExisteException;
 }

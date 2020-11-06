@@ -25,7 +25,7 @@ public class CrearMascotaDataTest {
     public void crearMascota_MascotaNoExiste_CrearCorrectamente(){
         Mascota laMascota = Mascota.instancia("gino","caniche", LocalDate.of(2019,6,1));
 
-        boolean resultado = creaMascotaRepositorilmplementation.guardarMascota(laMascota);
+        boolean resultado = creaMascotaRepositorilmplementation.guardarMascota(laMascota,"35064555");
         Assertions.assertTrue(resultado);
     }
 }

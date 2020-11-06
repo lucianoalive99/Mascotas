@@ -17,10 +17,10 @@ public class CrearMascotaController {
     ICrearMascotaUseCase crearMascotaUseCase;
 
     @PostMapping(value = "/mascotas")
-    public ResponseEntity<?> crearMascota(MascotaDTO mascotaDTO){
+    public ResponseEntity<?> crearMascota(MascotaDTO mascotaDTO, String documento){
         Mascota laMascota = Mascota.instancia(mascotaDTO.getNombre(),mascotaDTO.getRaza(),mascotaDTO.getFechaNacimiento());
         try {
-            boolean resultado = crearMascotaUseCase.crearMascota(laMascota);
+            boolean resultado = crearMascotaUseCase.crearMascota(laMascota,documento);
             return ResponseEntity.status(HttpStatus.OK).body(resultado);
         } catch (mascotaExisteException existeLaMascota) {
             existeLaMascota.printStackTrace();

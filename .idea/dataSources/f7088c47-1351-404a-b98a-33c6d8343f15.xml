@@ -1408,7 +1408,7 @@ false posix/WET
 false posix/Zulu
 false posixrules
 </TimeZones>
-      <StartupTime>1604611726</StartupTime>
+      <StartupTime>1604630626</StartupTime>
     </root>
     <database id="2" parent="1" name="app_mascotas">
       <ObjectId>16385</ObjectId>
@@ -1417,7 +1417,7 @@ false posixrules
     <database id="3" parent="1" name="app_mascotastest">
       <ObjectId>65536</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>597</IntrospectionStateNumber>
+      <IntrospectionStateNumber>625</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="4" parent="1" name="postgres">
@@ -1478,7 +1478,7 @@ false posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>598</IntrospectionStateNumber>
+      <IntrospectionStateNumber>626</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="18" parent="3" name="heap">
@@ -1566,9 +1566,10 @@ false posixrules
       <StateNumber>588</StateNumber>
     </table>
     <table id="33" parent="17" name="mascotas">
-      <ObjectId>65545</ObjectId>
+      <ObjectId>73728</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
-      <StateNumber>588</StateNumber>
+      <StateNumber>618</StateNumber>
     </table>
     <column id="34" parent="32" name="idcliente">
       <Position>1</Position>
@@ -1619,50 +1620,50 @@ false posixrules
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>585</StateNumber>
+      <StateNumber>617</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="42" parent="33" name="fechanacimiento">
       <Position>2</Position>
       <DataType>date|0s</DataType>
-      <StateNumber>585</StateNumber>
+      <StateNumber>617</StateNumber>
       <TypeId>1082</TypeId>
     </column>
     <column id="43" parent="33" name="nombre">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>585</StateNumber>
+      <StateNumber>617</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="44" parent="33" name="raza">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>585</StateNumber>
+      <StateNumber>617</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="45" parent="33" name="cliente_idcliente">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>585</StateNumber>
+      <StateNumber>617</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="46" parent="33" name="mascotas_pkey">
-      <ObjectId>65551</ObjectId>
-      <StateNumber>585</StateNumber>
+      <ObjectId>73734</ObjectId>
+      <StateNumber>617</StateNumber>
       <ColNames>idmascota</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="47" parent="33" name="mascotas_pkey">
-      <ObjectId>65552</ObjectId>
-      <StateNumber>585</StateNumber>
+      <ObjectId>73735</ObjectId>
+      <StateNumber>617</StateNumber>
       <ColNames>idmascota</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>mascotas_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="48" parent="33" name="fkkyfvsd9s4wjwd8ak2yf6vat8q">
-      <ObjectId>65557</ObjectId>
-      <StateNumber>588</StateNumber>
+      <ObjectId>73736</ObjectId>
+      <StateNumber>618</StateNumber>
       <ColNames>cliente_idcliente</ColNames>
       <RefTableId>65537</RefTableId>
       <RefColPositions>1</RefColPositions>

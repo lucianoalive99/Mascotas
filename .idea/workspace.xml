@@ -29,21 +29,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15/storage_v2/_src_/database/app_mascotastest.K0axjw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7088c47-1351-404a-b98a-33c6d8343f15/storage_v2/_src_/database/app_mascotastest.K0axjw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/controller/endpoint/CrearMascotaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/controller/endpoint/CrearMascotaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/doamain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/ICrearMascotaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/repositorio/ICrearMascotaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/CrearMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/CrearMascotaUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearMascotaUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/core/usecase/input/ICrearMascotaUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaMascotaRepositorilmplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaMascotaRepositorilmplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/MascotaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/MascotaEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaMascotaDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaMascotaDataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearClienteDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearClienteDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearMascotaDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/CrearMascotaDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearMascotaUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/usecaseunittest/CrearMascotaUseCaseUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +122,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos">
+  <component name="RunManager" selected="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,22 +130,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mascotas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ar.edu.undec.mascotas.persistenceunittest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.ConsultaClienteDataTest" />
-      <option name="METHOD_NAME" value="consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mascotas" />
       <extension name="coverage">
         <pattern>
@@ -184,7 +160,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
       <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.ConsultaMascotaDataTest" />
-      <option name="METHOD_NAME" value="consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" />
+      <option name="METHOD_NAME" value="consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearClienteDataTest.crearCliente_ClienteMenorEdad_NoCreaCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mascotas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.undec.mascotas.persistenceunittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.CrearClienteDataTest" />
+      <option name="METHOD_NAME" value="crearCliente_ClienteMenorEdad_NoCreaCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,7 +198,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CrearClienteDataTest.crearCliente_DocumentoYaExiste_NoCrearCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mascotas" />
       <extension name="coverage">
         <pattern>
@@ -215,8 +207,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ar.edu.undec.mascotas.persistenceunittest" />
-      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.CrearMascotaDataTest" />
-      <option name="METHOD_NAME" value="crearMascota_MascotaNoExiste_CrearCorrectamente" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.undec.mascotas.persistenceunittest.CrearClienteDataTest" />
+      <option name="METHOD_NAME" value="crearCliente_DocumentoYaExiste_NoCrearCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,19 +223,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteNoExiste_CrearCorrectamente" />
-      <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
       <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" />
-      <item itemvalue="JUnit.CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" />
       <item itemvalue="Spring Boot.MascotasApplication" />
-      <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" />
+      <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteMenorEdad_NoCreaCliente" />
+      <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_DocumentoYaExiste_NoCrearCliente" />
+      <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" />
+        <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException" />
+        <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_DocumentoYaExiste_NoCrearCliente" />
+        <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteMenorEdad_NoCreaCliente" />
         <item itemvalue="JUnit.CrearClienteDataTest.crearCliente_ClienteNoExiste_CrearCorrectamente" />
-        <item itemvalue="JUnit.ConsultaMascotaDataTest.consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta" />
-        <item itemvalue="JUnit.CrearMascotaDataTest.crearMascota_MascotaNoExiste_CrearCorrectamente" />
-        <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientePorDocumento_ClienteExiste_ClienteDevuelto" />
+        <item itemvalue="JUnit.ConsultaClienteDataTest.consultarClientes_ClientesExisten_ClientesDevueltos" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +278,12 @@
       <workItem from="1604449232179" duration="23169000" />
       <workItem from="1604600370388" duration="5680000" />
       <workItem from="1604612021463" duration="8755000" />
+      <workItem from="1604630567453" duration="3152000" />
+      <workItem from="1604676912360" duration="777000" />
+      <workItem from="1604701791554" duration="4250000" />
+      <workItem from="1604725098675" duration="1131000" />
+      <workItem from="1604726833710" duration="2032000" />
+      <workItem from="1604730673858" duration="1699000" />
     </task>
     <servers />
   </component>
@@ -305,11 +303,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="582" y="255" key="#Assign_Data_Sources" timestamp="1603678494843">
+    <state x="582" y="255" key="#Assign_Data_Sources" timestamp="1604724306298">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603309282041" />
-    <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1603678494843" />
+    <state x="582" y="255" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1604724306298" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1603310297083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -383,54 +381,54 @@
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603310751008" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604525667189" />
-    <state width="1323" height="260" key="GridCell.Tab.0.bottom" timestamp="1604621338493">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom" timestamp="1604732131677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="260" key="GridCell.Tab.0.center" timestamp="1604621338493">
+    <state width="1323" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604732131677" />
+    <state width="1323" height="260" key="GridCell.Tab.0.center" timestamp="1604732131677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="260" key="GridCell.Tab.0.left" timestamp="1604621338493">
+    <state width="1323" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604732131677" />
+    <state width="1323" height="260" key="GridCell.Tab.0.left" timestamp="1604732131677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="260" key="GridCell.Tab.0.right" timestamp="1604621338493">
+    <state width="1323" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604732131677" />
+    <state width="1323" height="260" key="GridCell.Tab.0.right" timestamp="1604732131677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938155608" />
     <state width="981" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602882237157" />
-    <state width="1323" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="309" key="GridCell.Tab.1.bottom" timestamp="1604621338493">
+    <state width="1323" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604732131677" />
+    <state width="1323" height="274" key="GridCell.Tab.1.bottom" timestamp="1604731553267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="309" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="309" key="GridCell.Tab.1.center" timestamp="1604621338493">
+    <state width="1323" height="274" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604731553267" />
+    <state width="1323" height="274" key="GridCell.Tab.1.center" timestamp="1604731553267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="309" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="309" key="GridCell.Tab.1.left" timestamp="1604621338493">
+    <state width="1323" height="274" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604731553267" />
+    <state width="1323" height="274" key="GridCell.Tab.1.left" timestamp="1604731553267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169102" />
     <state width="981" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="309" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
-    <state width="1323" height="309" key="GridCell.Tab.1.right" timestamp="1604621338493">
+    <state width="1323" height="274" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604731553267" />
+    <state width="1323" height="274" key="GridCell.Tab.1.right" timestamp="1604731553267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="256" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603938169103" />
     <state width="981" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1600226261611" />
-    <state width="1323" height="309" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604621338493" />
+    <state width="1323" height="274" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604731553267" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1603308761654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -450,10 +448,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="362" y="61" key="SpringBootCustomization/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603310756181" />
-    <state width="591" height="517" key="SwitcherDM" timestamp="1604616590488">
+    <state width="591" height="517" key="SwitcherDM" timestamp="1604703268261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="591" height="517" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1604616590488" />
+    <state width="591" height="517" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1604703268261" />
     <state x="438" y="141" key="chooseDestDirectoryDialog" timestamp="1603317042836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -488,18 +486,19 @@
     <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1603935205918" />
     <state x="1653" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602681812845" />
     <state x="383" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1603690202442" />
-    <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602681299749">
-      <screen x="1366" y="0" width="1024" height="728" />
+    <state x="346" y="49" width="897" height="678" key="search.everywhere.popup" timestamp="1604730971454">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1600298251607" />
     <state x="1625" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1024.728@1366.0.1024.728" timestamp="1602681299749" />
+    <state x="346" y="49" width="897" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604730971454" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaClienteDataTest.java</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -524,7 +523,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java</url>
-          <line>62</line>
+          <line>63</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -544,7 +543,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java</url>
-          <line>56</line>
+          <line>48</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -568,36 +567,47 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ar/edu/undec/mascotas/persistenceunittest/ConsultaMascotaDataTest.java</url>
-          <line>22</line>
+          <line>26</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="37" />
+          <line>113</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/ConsultaClienteRepositoriImplementation.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/CreaClienteRespositoriImplemtation.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ar/edu/undec/mascotas/persistencia/entity/ClienteEntity.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo parentTag="com.sun.proxy.$Proxy70" memberName="h" />
         <PinnedItemInfo parentTag="ar.edu.undec.mascotas.core.doamain.Cliente" memberName="CollectionaMascotas" />
+        <PinnedItemInfo parentTag="com.sun.proxy.$Proxy70" memberName="h" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="this" />
+        <watch expression="clientList" />
       </configuration>
     </watches-manager>
   </component>

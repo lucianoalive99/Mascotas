@@ -39,20 +39,12 @@ public class ConsultaClienteRepositoriImplementation implements IConsultarClient
     public Collection<Cliente> findAll() {
 
         Collection<Cliente> clientList = new ArrayList<>();
-        //Collection<Mascota> mascotas = new ArrayList<>();
                 consultarClienteCRUD.findAll().forEach(clienteEntity ->
                         clientList.add(Cliente.instancia(clienteEntity.getApellido(), clienteEntity.getNombre(),
                                 clienteEntity.getDocumento(), clienteEntity.getFechanacimiento(),
                                 clienteEntity.getMascotasById().stream().map(
                                         MascotaEntity::mascotaEntityToMascota).
                                         collect(Collectors.toCollection(ArrayList::new)))));
-
-
-
-                /*stream().map(mascotaEntity ->
-                                        Mascota.instancia(mascotaEntity.getNombre(), mascotaEntity.getRaza(),
-                                                mascotaEntity.getFechaNacimiento())).collect(Collectors.toList()))));*/
-
 
         return clientList;
     }

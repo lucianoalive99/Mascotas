@@ -10,6 +10,10 @@ import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.time.LocalDate;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringBootTest
 public class ConsultaMascotaDataTest {
 
@@ -20,13 +24,6 @@ public class ConsultaMascotaDataTest {
     void consultaMascotaPorNombre_MascotaExiste_MascotaDevuelta() {
         Mascota laMascota = consultarMascotasRepositoriImplementation.findByNombre("gino");
 
-        Assertions.assertEquals("gino", laMascota.getNombre());
+        assertEquals("gino", laMascota.getNombre());
     }
-
-    /*@Test
-    void consultaMascotaPorNombre_MascotaNoExiste_MascotaExisteException() {
-        Mascota laMascota = consultarMascotasRepositoriImplementation.findByNombre("franchulo");
-
-        Assertions.assertThrows(mascotaExisteException.class)
-    }*/
 }

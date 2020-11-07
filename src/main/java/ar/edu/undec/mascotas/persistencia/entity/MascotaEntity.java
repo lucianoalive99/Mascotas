@@ -24,17 +24,8 @@ public class MascotaEntity{
     @Column(name="fechanacimiento")
     private LocalDate fechaNacimiento;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    private ClienteEntity cliente;
 
     public MascotaEntity() {
-    }
-
-    public MascotaEntity(Integer idMascota, String nombre, String raza, LocalDate fechaNacimiento) {
-        this.idMascota = idMascota;
-        this.nombre = nombre;
-        this.raza = raza;
-        this.fechaNacimiento = fechaNacimiento;
     }
 
     public void setIdMascota(Integer idMascota) {
@@ -70,15 +61,6 @@ public class MascotaEntity{
     }
 
 
-    public ClienteEntity getCliente() {
-        return cliente;
-    }
-
-
-    public void setCliente(ClienteEntity cliente) {
-        this.cliente = cliente;
-    }
-
     public static Mascota mascotaEntityToMascota(MascotaEntity mascotaEntity){
         Mascota mascota = new Mascota();
         mascota.setNombre(mascotaEntity.getNombre());
@@ -93,7 +75,6 @@ public class MascotaEntity{
         mascotaEntity.setNombre(mascota.getNombre());
         mascotaEntity.setRaza(mascota.getRaza());
         mascotaEntity.setFechaNacimiento(mascota.getFechaNacimiento());
-        //mascotaEntity.setCliente(cliente);
 
         return mascotaEntity;
     }

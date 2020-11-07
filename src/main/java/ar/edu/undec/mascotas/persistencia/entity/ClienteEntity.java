@@ -29,7 +29,7 @@ public class ClienteEntity {
     @Column(name = "fechanacimiento")
     private LocalDate fechanacimiento;
 
-    @OneToMany(mappedBy = "cliente", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Collection<MascotaEntity> mascotasById;
 
 
@@ -83,7 +83,7 @@ public class ClienteEntity {
         this.mascotasById = mascotasById;
     }
 
-    @Override
+    /*@Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -98,7 +98,7 @@ public class ClienteEntity {
     @Override
     public int hashCode() {
         return Objects.hash(idcliente, nombre, apellido, documento,fechanacimiento);
-    }
+    }*/
 
     public ClienteEntity() {
     }

@@ -49,8 +49,9 @@ public class CreaClienteRespositoriImplemtation implements ICrearClienteReposito
 
             for (Mascota mascota : elCliente.getCollectionaMascotas()){
                 MascotaEntity mascotaEntity = MascotaEntity.mascotaToMascotaEntity(mascota);
-                crearMascotaCRUD.save(mascotaEntity);
                 mascotaEntityCollection.add(mascotaEntity);
+                //crearMascotaCRUD.save(mascotaEntity);
+
             }
 
             clienteEntity.setApellido(elCliente.getApellido());

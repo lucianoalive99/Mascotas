@@ -19,15 +19,16 @@ public class ConsultaClienteDataTest {
     @Test
     void consultarClientePorDocumento_ClienteExiste_ClienteDevuelto(){
 
-        Cliente elCliente = consultaClienteRepositoriImplementation.findByDocumento("35064555");
+        Cliente elCliente = consultaClienteRepositoriImplementation.findByDocumento("35064666");
 
-        Assertions.assertEquals("35064555", elCliente.getDocumento());
+        Assertions.assertEquals("35064666", elCliente.getDocumento());
 
     }
 
     @Test
     void consultarClientes_ClientesExisten_ClientesDevueltos(){
-        Collection<Cliente> clienteCollection = consultaClienteRepositoriImplementation.findAll();
+        Collection<Cliente> clienteCollection;
+                clienteCollection=consultaClienteRepositoriImplementation.findAll();
 
         Assertions.assertNotNull(clienteCollection);
 

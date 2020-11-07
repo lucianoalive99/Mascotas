@@ -26,13 +26,43 @@ public class CrearClienteDataTest {
     @Test
     public void crearCliente_ClienteNoExiste_CrearCorrectamente(){
         List<Mascota> mascotaList = new ArrayList<>();
-        Mascota mascota1 = Mascota.instancia("gino","pastor aleman", LocalDate.of(2015,2,11));
-        Mascota mascota2 = Mascota.instancia("luna","calle", LocalDate.of(2018,5,22));
+        Mascota mascota1 = Mascota.instancia("gina","caniche", LocalDate.of(2017,3,12));
+        Mascota mascota2 = Mascota.instancia("milu","pitbull", LocalDate.of(2019,6,23));
         mascotaList.add(mascota1);
         mascotaList.add(mascota2);
 
-        Cliente elCliente = Cliente.instancia("Casiva","Laura","35541555",
-                LocalDate.of(2002,11,4),mascotaList);
+        Cliente elCliente = Cliente.instancia("Alive","Pia","35064000",
+                LocalDate.of(2000,7,9),mascotaList);
+
+        boolean resultado = creaClienteRespositoriImplemtation.guardarCliente(elCliente);
+        Assertions.assertTrue(resultado);
+    }
+
+    @Test
+    public void crearCliente_ClienteMenorEdad_NoCreaCliente(){
+        List<Mascota> mascotaList = new ArrayList<>();
+        Mascota mascota1 = Mascota.instancia("gina","caniche", LocalDate.of(2017,3,12));
+        Mascota mascota2 = Mascota.instancia("milu","pitbull", LocalDate.of(2019,6,23));
+        mascotaList.add(mascota1);
+        mascotaList.add(mascota2);
+
+        Cliente elCliente = Cliente.instancia("Alive","Pia","35064000",
+                LocalDate.of(2005,7,9),mascotaList);
+
+        boolean resultado = creaClienteRespositoriImplemtation.guardarCliente(elCliente);
+        Assertions.assertTrue(resultado);
+    }
+
+    @Test
+    public void crearCliente_DocumentoYaExiste_NoCrearCliente() {
+        List<Mascota> mascotaList = new ArrayList<>();
+        Mascota mascota1 = Mascota.instancia("gina", "caniche", LocalDate.of(2017, 3, 12));
+        Mascota mascota2 = Mascota.instancia("milu", "pitbull", LocalDate.of(2019, 6, 23));
+        mascotaList.add(mascota1);
+        mascotaList.add(mascota2);
+
+        Cliente elCliente = Cliente.instancia("Alive", "Pia", "35064000",
+                LocalDate.of(2000, 7, 9), mascotaList);
 
         boolean resultado = creaClienteRespositoriImplemtation.guardarCliente(elCliente);
         Assertions.assertTrue(resultado);
